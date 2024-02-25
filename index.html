@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<style>
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.box{
+				width: 100%;
+				background-color: rgb(18, 126, 191);
+				height: 870px;
+			}
+			.title{
+				font-size: 14px;
+				color: white;
+				margin-left: 25px;
+				padding: 10px 0;
+			}
+			.content{
+				width: 98%;
+				height: 20%;
+				margin: 0 auto;
+			}
+			.xinxi{
+				width: 98%;
+				height: 580px;
+				background-color: white;
+				margin: 0 auto;
+				border: 1px solid white;
+			}
+			.main1{
+				width: 98%;
+				height: 235px;
+				border: 1px solid #ccc;
+				margin: 15px auto;
+				position: relative;
+			}
+			.title1{
+				width: 65px;
+				height: 20px;
+				background-color: white;
+				position: absolute;
+				top: -10px;
+				left: 10px;
+				text-align: center;
+				line-height: 20px;
+				font-size: 14px;
+			}
+			.a1{
+				width: 90%;
+				height: 190px;
+				margin: 25px auto;
+			}
+			.row1{
+				width: 100%;
+				height: 50px;
+				display: flex;
+				flex-wrap: wrap;
+				
+			}
+			.row1_1{
+				width: 45%;
+				height: 30px;
+				display: flex;
+				
+			}
+			.row1_2{
+				width: 45%;
+				height: 30px;
+				margin-left: 10%;
+				display: flex;
+			}
+			input{
+				border: 1px solid #ccc;
+				border-radius: 3px;
+				margin-left: 10px;
+				font-size: 12px;
+				font-weight: bold;
+			}
+			.main2{
+				height: 290px;
+			}
+			@media (max-width:440px) {
+				.row1{
+					height: 100px;
+				}
+				.row1_1{
+					width: 100%;
+				}
+				.row1_2{
+					width: 100%;
+					margin-left: 0;
+				}
+				.main1{
+					height: 430px;
+				}
+				.box{
+					height: 1176px;
+				}
+				input{
+					height: 30px;
+				}
+				.main2{
+					height: 476px;
+				}
+				.xinxi{
+					height: auto;
+				}
+				.row_title{
+					height: 50px;
+				}
+				.content{
+					height: 100px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<p class="title">招生单位说明</p>
+			<div class="content">
+				<textarea name="" id="" style="width: 100%;height: 100%;resize: none;" placeholder="招生单位暂无公告说明"></textarea>
+			</div>
+			<p class="title">成绩信息</p>
+			<div class="xinxi">
+				<div class="main1">
+					<div class="title1">
+						考生信息
+					</div>
+					<div class="a1">
+						<div class="row1">
+							<div class="row1_1">
+								<div style="width: 110px;text-align: right;font-size: 13px;line-height: 30px;">
+									考生编号:
+								</div>
+								<input type="text" name="" id="" style="width: 150px;" value="101757593546236">
+							</div>
+							<div class="row1_2">
+								<div style="width: 110px;text-align: right;font-size: 13px;line-height: 30px;">
+									姓名:
+								</div>
+								<input type="text" name="" id="" style="width: 150px;" value="王俊中">
+							</div>
+						</div>
+						<div class="row1">
+							<div class="row1_1">
+								<div style="width: 110px;text-align: right;font-size: 13px;line-height: 30px;">
+									报考院系所代码:
+								</div>
+								<input type="text" name="" id="" style="width: 150px;" value="008">
+							</div>
+							<div class="row1_2">
+								<div style="width: 110px;text-align: right;font-size: 13px;line-height: 30px;">
+									报考院系所名称:
+								</div>
+								<input type="text" name="" id="" style="width: 150px;" value="公安基础教研部">
+							</div>
+						</div>
+						<div class="row1">
+							<div class="row1_1">
+								<div style="width: 110px;text-align: right;font-size: 13px;line-height: 30px;">
+									报考专业代码:
+								</div>
+								<input type="text" name="" id="" style="width: 150px;" value="030600">
+							</div>
+							<div class="row1_2">
+								<div style="width: 110px;text-align: right;font-size: 13px;line-height: 30px;">
+									报考专业名称:
+								</div>
+								<input type="text" name="" id="" style="width: 150px;" value="公安学">
+							</div>
+						</div>
+						<div class="row1">
+							<div class="row1_1">
+								<div style="width: 110px;text-align: right;font-size: 13px;line-height: 30px;">
+									报考学习方式代码:
+								</div>
+								<input type="text" name="" id="" style="width: 150px;" value="1">
+							</div>
+							<div class="row1_2">
+								<div style="width: 110px;text-align: right;font-size: 13px;line-height: 30px;">
+									报考学习方式名称:
+								</div>
+								<input type="text" name="" id="" style="width: 150px;" value="非全日制">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="main1 main2" >
+					<div class="title1">
+						成绩信息
+					</div>
+					<div class="a1">
+						<div class="row1 row_title">
+							
+							<div class="row1_1 ">
+								<div style="width: 110px;text-align: right;font-size: 13px;line-height: 30px;">
+									总分:
+								</div>
+								<h2 style="color: rgb(166, 43, 54);font-size: 18px;margin-left: 10px;">376分</h2>
+							</div>
+						</div>
+						<div class="row1">
+							
+							<div class="row1_1">
+								<div style="width: 110px;text-align: right;font-size: 13px;line-height: 30px;">
+									政治理论名称:
+								</div>
+								<input type="text" name="" id="" style="width: 150px;" value="101-思想政治理论">
+							</div>
+							<div class="row1_2">
+								<div style="width: 110px;text-align: right;font-size: 13px;line-height: 30px;">
+									成绩:
+								</div>
+								<input type="text" name="" id="" style="width: 150px;" value="62">
+							</div>
+						</div>
+						<div class="row1">
+							<div class="row1_1">
+								<div style="width: 110px;text-align: right;font-size: 13px;line-height: 30px;">
+									外国语名称:
+								</div>
+								<input type="text" name="" id="" style="width: 150px;" value="204-英语(二)">
+							</div>
+							<div class="row1_2">
+								<div style="width: 110px;text-align: right;font-size: 13px;line-height: 30px;">
+									成绩:
+								</div>
+								<input type="text" name="" id="" style="width: 150px;" value="47">
+							</div>
+						</div>
+						<div class="row1">
+							<div class="row1_1">
+								<div style="width: 110px;text-align: right;font-size: 13px;line-height: 30px;">
+									业务课一名称:
+								</div>
+								<input type="text" name="" id="" style="width: 150px;" value="703-公安学综合">
+							</div>
+							<div class="row1_2">
+								<div style="width: 110px;text-align: right;font-size: 13px;line-height: 30px;">
+									成绩:
+								</div>
+								<input type="text" name="" id="" style="width: 150px;" value="130">
+							</div>
+						</div>
+						<div class="row1">
+							<div class="row1_1">
+								<div style="width: 110px;text-align: right;font-size: 13px;line-height: 30px;">
+									业务课二名称:
+								</div>
+								<input type="text" name="" id="" style="width: 150px;" value="803-法学综合(三)">
+							</div>
+							<div class="row1_2">
+								<div style="width: 110px;text-align: right;font-size: 13px;line-height: 30px;">
+									成绩:
+								</div>
+								<input type="text" name="" id="" style="width: 150px;" value="137">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<p style="text-align: center;color: white;font-size: 13px;padding: 10px 0;">Copyright©沈阳试途科技有限公司</p>
+		</div>
+	</body>
+</html>
